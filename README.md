@@ -17,11 +17,6 @@ A full-stack web application that allows authenticated users to manage and visua
 - ✅ **Instant Updates** - No page refresh required when adding locations
 - ✅ **Duplicate Prevention** - Validates against existing locations
 
-## 🚀 Live Demo
-
-**Frontend:** [https://your-app.vercel.app](https://your-app.vercel.app)  
-**Backend API:** [https://your-api.onrender.com](https://your-api.onrender.com)
-
 ## 📸 Screenshots
 
 ### Login Page
@@ -178,39 +173,6 @@ KLCC Park,3.1534,101.7126
 5. Success popup appears for 3 seconds
 6. Automatically redirects to map with new locations
 
-## 📁 Project Structure
-location-app/
-├── backend/
-│   ├── config/
-│   │   └── database.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   └── locations.js
-│   ├── uploads/
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Sidebar.jsx
-│   │   │   └── ProtectedRoute.jsx
-│   │   ├── pages/
-│   │   │   ├── Register.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── MapPage.jsx
-│   │   │   └── UploadPage.jsx
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   ├── store/
-│   │   │   └── authStore.js
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
 ## 🔐 API Endpoints
 
 ### Authentication
@@ -244,25 +206,6 @@ curl -X POST http://localhost:5000/api/auth/login \
     "password": "password123"
   }'
 ```
-
-## 🚀 Deployment
-
-### Backend Deployment (Render)
-1. Push code to GitHub
-2. Create account on [Render.com](https://render.com)
-3. Create PostgreSQL database
-4. Create Web Service
-5. Connect GitHub repository
-6. Set environment variables
-7. Deploy!
-
-### Frontend Deployment (Vercel)
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel` in frontend folder
-3. Follow prompts
-4. Update API URL in production
-
-**[Detailed deployment instructions below]**
 
 ## 🐳 Docker Support (Optional)
 ```bash
