@@ -20,13 +20,13 @@ A full-stack web application that allows authenticated users to manage and visua
 ## 📸 Screenshots
 
 ### Login Page
-![Screenshot of the user interface](images\loginpage.png)
+![Screenshot of the user interface](images/loginpage.png)
 
 ### Map View
-![Screenshot of the map interface](images\mapview.png)
+![Screenshot of the map interface](images/mapview.png)
 
 ### Upload Interface
-![Screenshot of the upload interface](images\fileupload.png)
+![Screenshot of the upload interface](images/fileupload.png)
 
 ## 🛠️ Tech Stack
 
